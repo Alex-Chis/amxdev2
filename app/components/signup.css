@@ -1,0 +1,46 @@
+.signup-container {
+  max-width: 500px;
+
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 5px;
+  gap: 20px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.login-container p {
+  color: grey;
+}
+
+#username,
+#password,
+#email {
+  background: transparent;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 0.5rem;
+  border-color: #477aa0;
+  color: white;
+}
+
+#signup {
+  border-color: #6cad86;
+  background: transparent;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+#signup:hover {
+  background: #6cad86;
+}

@@ -16,13 +16,15 @@ ul {
   justify-content: space-evenly;
   font-size: 1.5rem;
   font-weight: 700;
-  width: 50%;
+  width: auto;
+  margin-right: 2rem;
 }
 
 nav {
   display: flex;
   min-height: 150px;
   box-sizing: border-box;
+  margin-bottom: 2rem;
 }
 
 li a {
@@ -31,6 +33,37 @@ li a {
   padding: 10px;
 }
 li a:hover {
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    min-height: 80px;
+    max-height: 150px;
+    padding: auto;
+    align-items: center;
+  }
+
+  nav h2 {
+    font-size: 1.2rem;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+
+  nav ul li {
+    min-height: fit-content;
+    padding-bottom: 6px;
+  }
+
+  nav h2 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 5px 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
