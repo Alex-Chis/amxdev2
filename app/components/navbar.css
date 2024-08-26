@@ -1,0 +1,36 @@
+h2 {
+  font-size: 2rem;
+  margin-right: auto;
+  align-self: center;
+  margin-left: 5vw;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 50%;
+}
+
+nav {
+  display: flex;
+  min-height: 150px;
+  box-sizing: border-box;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+li a:hover {
+  background-color: black;
+  color: #fff;
+}
