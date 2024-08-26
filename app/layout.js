@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Journal Next",
-  description: "Journal app made in next js",
+  title: "AMX dev",
+  description: "amx dev site v2",
 };
 
 export default function RootLayout({ children }) {
